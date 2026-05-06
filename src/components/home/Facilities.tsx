@@ -41,7 +41,7 @@ export default function Facilities() {
       <div className="max-w-7xl mx-auto px-6 text-center">
 
         {/* Heading */}
-        <h2 className="text-3xl font-bold text-primary">
+        <h2 className="text-3xl font-bold text-white">
           Our Facilities
         </h2>
 
