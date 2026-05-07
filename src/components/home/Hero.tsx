@@ -185,7 +185,7 @@ export default function Hero() {
                 <div className="absolute inset-0">
 
                   <Image
-                    src="/hero-doctor.png"
+                    src="/doc1.jpg"
                     alt="Doctor"
                     fill
                     priority

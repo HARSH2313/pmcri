@@ -118,7 +118,7 @@ export default function WhyChoose() {
 
             Why Choose
             <span className="block text-cyan-300">
-              Pinnacle
+              PMCRI
             </span>
 
           </h2>
