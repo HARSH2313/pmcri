@@ -5,6 +5,7 @@ import WhyChoose from "@/components/home/WhyChoose";
 import Doctors from "@/components/home/Doctors";
 import Facilities from "@/components/home/Facilities";
 import CTA from "@/components/home/CTA";
+import Testimonials from "@/components/home/Testimonials";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <WhyChoose />
       <Doctors />
       <Facilities />
+      <Testimonials/>
       <CTA />
     </>
   );

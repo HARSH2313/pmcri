@@ -7,19 +7,21 @@ export default function QuickActions() {
   ];
 
   return (
-    <section className="-mt-14 relative z-20">
-  <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-5 px-4">
+    <section className="relative lg:-mt-14 z-20 px-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-4">
 
-    {["Find Doctor", "Book Appointment", "Emergency", "Health Packages"].map((item, i) => (
-      <div
-        key={i}
-        className="bg-white rounded-xl shadow-xl p-6 text-center hover:-translate-y-2 hover:shadow-2xl transition border"
-      >
-        <p className="font-semibold text-gray-800">{item}</p>
+        {actions.map((item, i) => (
+          <div
+            key={i}
+            className="bg-white rounded-xl shadow-lg p-4 sm:p-6 text-center hover:-translate-y-1 transition"
+          >
+            <p className="font-semibold text-sm sm:text-base text-gray-700">
+              {item}
+            </p>
+          </div>
+        ))}
+
       </div>
-    ))}
-
-  </div>
-</section>
+    </section>
   );
 }
