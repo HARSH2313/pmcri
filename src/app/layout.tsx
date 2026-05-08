@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description:
     "Pinnacle Medical Centre & Research Institute provides advanced multi-specialty healthcare services with experienced doctors, modern medical technology, emergency care, diagnostics, and patient-focused treatment.",
   keywords: [
-    "Pinnacle Medical Centre",
+    "Pinnacle Medical Centre and Research Institute","Pinnacle Medical Centre & Research Institute","pmcri",
     "Hospital",
     "Doctors",
     "Healthcare",

@@ -10,24 +10,60 @@ import {
 } from "lucide-react";
 
 const doctors = [
+{
+    name: "Dr. Kamal Sood",
+    specialty: "Paediatrics",
+    experience: "Years",
+    image: "/doc1.jpg",
+  },
   {
     name: "Dr. Shalini Sood",
-    specialty: "Cardiologist",
-    experience: "15+ Years Experience",
+    specialty: "Obstetrics & Gynecology",
+    experience: "Years",
     image: "/doc1.jpg",
   },
   {
-    name: "Dr. Neha Mehta",
-    specialty: "Neurologist",
-    experience: "12+ Years Experience",
+    name: "Dr. Gaurav",
+    specialty: "Paediatrics",
+    experience: "Years",
+    image: "/doc1.jpg",
+  },{
+    name: "Dr. Sandhya",
+    specialty: "Obstetrics & Gynecology",
+    experience: "Years",
+    image: "/doc1.jpg",
+  },{
+    name: "Dr. Sakshi",
+    specialty: "Obstetrics & Gynecology",
+    experience: "Years",
+    image: "/doc1.jpg",
+  },{
+    name: "Dr. Ajay",
+    specialty: "Medicine",
+    experience: "Years",
+    image: "/doc1.jpg",
+  },{
+    name: "Dr. Harjot Singh",
+    specialty: "Orthopaedics",
+    experience: "Years",
+    image: "/doc1.jpg",
+  },{
+    name: "Dr. Amit Soni",
+    specialty: "Anesthesiology",
+    experience: "Years",
+    image: "/doc1.jpg",
+  },{
+    name: "Dr. Naina Soni",
+    specialty: "Obstetric & Gynecology",
+    experience: "Years",
+    image: "/doc1.jpg",
+  },{
+    name: "DR. Isha Goyal",
+    specialty: "Radiology",
+    experience: "Years",
     image: "/doc1.jpg",
   },
-  {
-    name: "Dr. Amit Verma",
-    specialty: "Orthopedic Surgeon",
-    experience: "10+ Years Experience",
-    image: "/doc1.jpg",
-  },
+
 ];
 
 export default function Doctors() {
