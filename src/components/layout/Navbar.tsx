@@ -46,6 +46,8 @@ export default function Navbar() {
               { name: "Services", href: "/services" },
               { name: "Blogs", href: "/blogs" },
               { name: "Contact", href: "/contact" },
+              
+              { name: "Careers", href: "/careers" },
             ].map((item, i) => (
               <li key={i}>
 
